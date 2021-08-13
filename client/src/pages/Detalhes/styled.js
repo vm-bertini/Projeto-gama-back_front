@@ -21,9 +21,12 @@ export const PageArea = styled.div`
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 100%;
-    
-    
+        padding-top: 50px;
+        margin: auto;
+        width: auto;
+        max-width: 1500px;
+        position: relative;
+        left: 0px;
         .book_back{
             display: flex;
             justify-content: center;
@@ -70,7 +73,7 @@ export const PageArea = styled.div`
                     float: left;
                     color: #3B2F93;
                     font-weight:bold;
-                    font-size: 1.7vw;
+                    font-size: 1.633em;
                     width: 45%;
                     margin-right: 1%;
                     aspect-ratio: 6.54;
