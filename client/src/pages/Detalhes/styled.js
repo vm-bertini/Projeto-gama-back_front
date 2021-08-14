@@ -23,8 +23,7 @@ export const PageArea = styled.div`
         flex-wrap: wrap;
         padding-top: 50px;
         margin: auto;
-        width: auto;
-        max-width: 1500px;
+        width: 100em;
         position: relative;
         left: 0px;
         .book_back{
@@ -57,7 +56,7 @@ export const PageArea = styled.div`
                     h3{
                         color: #3B2F93;
                         height: 55%;
-                        font-size: 1.20vw;
+                        font-size: 1.3em;
                         overflow: hidden ;
                         font-weight: normal;
                         margin-bottom: 1%;
@@ -65,7 +64,7 @@ export const PageArea = styled.div`
                     h2{
                         color: #3B2F93;
                         height:45%;
-                        font-size: 0.94vw;
+                        font-size: 1em;
                         font-weight: bold;
                     }
                 }
@@ -78,9 +77,7 @@ export const PageArea = styled.div`
                     margin-right: 1%;
                     aspect-ratio: 6.54;
                     position: relative;
-                    margin-bottom:; 
-                    text-decoration: underline;
-                    font-style: italic;              
+                    margin-bottom:;             
                 }
                 .leituras{
                     display: flex;
@@ -89,12 +86,12 @@ export const PageArea = styled.div`
                     flex-direction: column;
                     flex-wrap: wrap;
                     width: 45%;
-                    aspect-ratio: 5.8;
+                    aspect-ratio: 5;
                     padding: 1%;
-                    margin-bottom: 3%;
+                    margin-bottom: 1%;
                     .leitura{
                         display: flex;
-                        justify-content: left;
+                        justify-content: space-between;
                         align-items: centre;
                         flex-direction: row;
                         width:100%;
@@ -109,10 +106,10 @@ export const PageArea = styled.div`
                         h4{
                             position: absolute;
                             top: 0.25vw;
-                            font-size: 1.1vw;;
+                            font-size: 1.1em;;
                             color: #3B2F93;
                             text-align: left;
-                            width: 92%;
+                            width: 90%;
                             height: 100%;
                             position: relative;
                             #text{
@@ -155,8 +152,7 @@ export const PageArea = styled.div`
                 color: #3B2F93;
                 width: 100%;
                 height: 15%;
-                font-size: 1.6vw;
-                text-decoration: underline;
+                font-size: 1.6em;
                 
                 }
     
@@ -167,15 +163,14 @@ export const PageArea = styled.div`
                     overflow:auto;
                     word-break: break-word;
                     color: #3B2F93;
-                    font-size: 1.3vw;
+                    font-size: 1.2em;
                 }
                 .Autor-title{
                     
                     color: #3B2F93;
                     width: 100%;
                     height: 15%;
-                    font-size: 1.6vw;
-                    text-decoration: underline;
+                    font-size: 1.6em;
                     
                 }
         
@@ -188,7 +183,7 @@ export const PageArea = styled.div`
                     font-size: 15px;
                     word-break: break-word;
                     color: #3B2F93;
-                    font-size: 1.2vw;
+                    font-size: 1.2em;
                 }
     
                 @media(max-width:764px){
@@ -214,8 +209,8 @@ export const PageArea = styled.div`
                     height:44%;
                     justify-content: center;
                     .comprar{
-                        width: 16vw;
-                        height: 3.2vw;
+                        width: 20em;
+                        height: 4.5em;
                     }
                     button{
                         padding: 0;
@@ -324,6 +319,7 @@ export const PageArea = styled.div`
     cursor:pointer;
     font-family:Inter;
     text-align:center;
+    z-index: 7;
     transform: scaleX(-1);
 
     &:hover {
